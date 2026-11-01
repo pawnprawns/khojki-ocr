@@ -9,7 +9,7 @@ The five-line example below has **8.29% character error rate (CER)**. The [one-p
 Tested with Python 3.13 on macOS (Apple Silicon). From the downloaded repository folder, install the package:
 
 ```sh
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install .
 ```
