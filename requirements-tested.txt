@@ -1,0 +1,7 @@
+# Fresh isolated macOS arm64 / Python 3.13.5 installation.
+# These are a tested snapshot; pyproject.toml declares portable version ranges.
+torch==2.15.0
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+pypdfium2==5.14.0
+Pillow==13.0.0

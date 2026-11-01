@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.pt binary
+*.png binary
+*.pdf binary
+*.ttf binary
+# Preserve the bundled third-party license verbatim.
+**/OFL.txt -whitespace

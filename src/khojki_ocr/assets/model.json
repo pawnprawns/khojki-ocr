@@ -1,0 +1,119 @@
+{
+  "model": "multi_head_character_cnn",
+  "seed": 17,
+  "parameters": 163736,
+  "pooling": "adaptive_max_6x6",
+  "views": [
+    {
+      "name": "identity",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "x-1px",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "x+1px",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "y-1px",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -1.0
+        ]
+      ]
+    },
+    {
+      "name": "y+1px",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "scale0.94",
+      "affine": [
+        [
+          0.9399999976158142,
+          0.0,
+          1.409999966621399
+        ],
+        [
+          0.0,
+          0.9399999976158142,
+          1.409999966621399
+        ]
+      ]
+    },
+    {
+      "name": "scale1.06",
+      "affine": [
+        [
+          1.059999942779541,
+          0.0,
+          -1.409999966621399
+        ],
+        [
+          0.0,
+          1.059999942779541,
+          -1.409999966621399
+        ]
+      ]
+    }
+  ],
+  "sha256": {
+    "labels.json": "a0e97a5fd792e964aa0b58b1df97d389c56d4576d936743ccd9b14bdf9f44cc9",
+    "classifier.pt": "1857d0079ab25ec8dcae0d018f07a7a7de6aae57cc7f08b9a0e58e48fe26f2d8"
+  },
+  "training_data": "corrected-rendering O-focused synthetic font images; no historical images",
+  "checkpoint_selection": "corrected synthetic validation accuracy, earliest tie"
+}

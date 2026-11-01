@@ -1,0 +1,39 @@
+{
+  "status": "chart-assisted and user-reviewed; not expert-certified",
+  "split": "additional reviewed lines; originally reserved, subsequently exposed during development; not independent held-out performance",
+  "matching": "post-inference geometry only; reference text never enters inference",
+  "source_pdf_sha256": "99f373777e13ad01ccc7ff1ae067cb80a3de2bc22d96df6c7ab0a558f8d11f23",
+  "render_scale": 2.0,
+  "lines": [
+    {
+      "id": "H01",
+      "page": 23,
+      "image": "examples/page-023.png",
+      "image_sha256": "bee3724afd74c58e7855d0d7993d58dc79eaf2102627359027dc5d6575f49b2d",
+      "bbox": [
+        106,
+        270,
+        1400,
+        366
+      ],
+      "text": "𑈐𑈬𑈦𑈲𑈺𑈊𑈯𑈦𑈈𑈰𑈺𑈟𑈬𑈩𑈺𑈹𑈺𑈩𑈯𑈴𑈘𑈲𑈺𑈪𑈲𑈺𑈩𑈬𑈪𑈰𑈡𑈺𑈪𑈤𑈬𑈦𑈮𑈺𑈀𑈦",
+      "crop": "evaluation/lines/H01.png",
+      "bbox_note": "Original reviewed text-line rectangle; the larger historical inference crop included decorative context. Transcript is the later corrected and reviewed version."
+    },
+    {
+      "id": "H02",
+      "page": 23,
+      "image": "examples/page-023.png",
+      "image_sha256": "bee3724afd74c58e7855d0d7993d58dc79eaf2102627359027dc5d6575f49b2d",
+      "bbox": [
+        106,
+        371,
+        1400,
+        467
+      ],
+      "text": "𑈛𑈬𑈩𑈺𑈹૧૩𑈹𑈺𑈟𑈯𑈐𑈬𑈦𑈲𑈺𑈈𑈪𑈰𑈺𑈜𑈰𑈨𑈞𑈮𑈺𑈤𑈯𑈦𑈙𑈺𑈃𑈟𑈦𑈺𑈈𑈰𑈤𑈺𑈦𑈬𑈉𑈰",
+      "crop": "evaluation/lines/H02.png",
+      "bbox_note": "Original reviewed text-line rectangle; the larger historical inference crop included decorative context. Transcript is the later corrected and reviewed version."
+    }
+  ]
+}

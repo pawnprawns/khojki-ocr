@@ -1,0 +1,79 @@
+{
+  "status": "chart-assisted and user-reviewed; not expert-certified",
+  "split": "development; repeatedly inspected during system design",
+  "matching": "post-inference geometry-only matching; reference boxes and text never enter recognition",
+  "lines": [
+    {
+      "id": "L01",
+      "page": 22,
+      "image": "examples/page-022.png",
+      "image_sha256": "2e8c35438617626e0edd7fd9e98cef2707c6e37e23610b52f9ef834f9f853e45",
+      "bbox": [
+        148,
+        531,
+        1358,
+        630
+      ],
+      "text": "𑈁𑈜𑈺𑈊𑈯𑈦𑈺𑈡𑈭𑈦𑈪𑈭𑈤𑈬𑈺𑈞𑈯𑈦𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈬𑈤𑈺𑈹𑈺𑈐𑈴𑈟𑈯𑈜𑈮",
+      "crop": "evaluation/lines/L01.png"
+    },
+    {
+      "id": "L02",
+      "page": 22,
+      "image": "examples/page-022.png",
+      "image_sha256": "2e8c35438617626e0edd7fd9e98cef2707c6e37e23610b52f9ef834f9f853e45",
+      "bbox": [
+        86,
+        629,
+        1358,
+        716
+      ],
+      "text": "𑈟𑈤𑈬𑈴𑈺𑈊𑈯𑈦𑈰𑈺𑈈𑈮𑈛𑈲𑈺𑈤𑈯𑈈𑈬𑈤𑈺𑈹૧𑈹𑈺𑈩𑈰𑈙𑈦𑈺𑈜𑈮𑈟𑈺𑈛𑈰𑈧𑈤𑈺𑈜𑈰𑈩",
+      "crop": "evaluation/lines/L02.png"
+    },
+    {
+      "id": "L03",
+      "page": 22,
+      "image": "examples/page-022.png",
+      "image_sha256": "2e8c35438617626e0edd7fd9e98cef2707c6e37e23610b52f9ef834f9f853e45",
+      "bbox": [
+        86,
+        725,
+        1358,
+        813
+      ],
+      "text": "𑈪𑈲𑈺𑈐𑈬𑈴𑈘𑈺𑈸𑈺𑈙𑈮𑈁𑈴𑈺𑈞𑈯𑈦𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈢𑈰𑈕𑈬𑈺𑈪𑈲𑈺𑈁𑈴𑈘𑈺𑈹૨𑈹𑈺𑈛𑈰",
+      "crop": "evaluation/lines/L03.png"
+    },
+    {
+      "id": "L04",
+      "page": 22,
+      "image": "examples/page-022.png",
+      "image_sha256": "2e8c35438617626e0edd7fd9e98cef2707c6e37e23610b52f9ef834f9f853e45",
+      "bbox": [
+        86,
+        826,
+        1358,
+        907
+      ],
+      "text": "𑈧𑈤𑈺𑈜𑈰𑈩𑈚𑈮𑈺𑈟𑈮𑈦𑈰𑈴𑈺𑈈𑈮𑈁𑈺𑈪𑈲𑈺𑈁𑈴𑈘𑈺𑈹𑈺𑈙𑈮𑈁𑈴𑈺𑈁𑈨𑈰",
+      "crop": "evaluation/lines/L04.png"
+    },
+    {
+      "id": "L05",
+      "page": 22,
+      "image": "examples/page-022.png",
+      "image_sha256": "2e8c35438617626e0edd7fd9e98cef2707c6e37e23610b52f9ef834f9f853e45",
+      "bbox": [
+        86,
+        923,
+        1357,
+        1004
+      ],
+      "text": "𑈁𑈺𑈞𑈊𑈦𑈮𑈺𑈡𑈮𑈧𑈖𑈮𑈺𑈪𑈲𑈺𑈐𑈬𑈴𑈘𑈺𑈹૩𑈹𑈺𑈡𑈮𑈧𑈖𑈮𑈺𑈞𑈊𑈦𑈮",
+      "crop": "evaluation/lines/L05.png"
+    }
+  ],
+  "source_pdf_sha256": "99f373777e13ad01ccc7ff1ae067cb80a3de2bc22d96df6c7ab0a558f8d11f23",
+  "render_scale": 2.0
+}

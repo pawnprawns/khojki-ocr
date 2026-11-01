@@ -1,0 +1,37 @@
+{
+  "status": "chart-assisted and user-reviewed; not expert-certified",
+  "split": "additional reviewed lines; originally reserved, subsequently exposed during development; not independent held-out performance",
+  "matching": "post-inference geometry only; reference text never enters inference",
+  "source_pdf_sha256": "99f373777e13ad01ccc7ff1ae067cb80a3de2bc22d96df6c7ab0a558f8d11f23",
+  "render_scale": 2.0,
+  "lines": [
+    {
+      "id": "R01",
+      "page": 24,
+      "image": "examples/page-024.png",
+      "image_sha256": "7cdf47c15edcd2464f80beb8bf710acebdb6853f0753997cb44c4dcc0570b45e",
+      "bbox": [
+        85,
+        727,
+        1390,
+        825
+      ],
+      "text": "𑈐𑈬𑈞𑈮𑈟𑈬𑈺𑈐𑈲𑈊𑈮𑈈𑈯𑈺𑈢𑈲𑈧𑈬𑈨𑈮𑈺𑈧𑈮𑈆𑈺𑈹૩૧𑈹𑈺𑈐𑈬𑈞𑈮𑈟𑈬𑈺𑈐𑈲𑈊𑈮𑈺",
+      "crop": "evaluation/lines/R01.png"
+    },
+    {
+      "id": "R02",
+      "page": 24,
+      "image": "examples/page-024.png",
+      "image_sha256": "7cdf47c15edcd2464f80beb8bf710acebdb6853f0753997cb44c4dcc0570b45e",
+      "bbox": [
+        85,
+        822,
+        1390,
+        927
+      ],
+      "text": "𑈤𑈬𑈴𑈪𑈰𑈺𑈢𑈪𑈯𑈺𑈈𑈦𑈬𑈤𑈙𑈺𑈸𑈺𑈙𑈰𑈚𑈮𑈺𑈦𑈬𑈐𑈬𑈄𑈺𑈙𑈰𑈞𑈰𑈺𑈧𑈮𑈜𑈲𑈦𑈰𑈺𑈩𑈬𑈚",
+      "crop": "evaluation/lines/R02.png"
+    }
+  ]
+}
